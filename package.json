@@ -1,0 +1,24 @@
+{
+  "name": "kaupunginorkesteri",
+  "version": "0.1.0",
+  "description": "Test theme for wordpress",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljlassi/kaupunginorkesteri-wp.git"
+  },
+  "author": "Lassi Jääskeläinen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljlassi/kaupunginorkesteri-wp/issues"
+  },
+  "homepage": "https://github.com/ljlassi/kaupunginorkesteri-wp#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}

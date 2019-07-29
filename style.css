@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/*
+Theme Name: Lassi Jääskeläinen tmi Base Theme
+Theme URI: http://lassijaaskelainen.fi
+Author: Lassi Jääskeläinen
+Author URI: http://lassijaaskelainen.fi
+Description: Lassi Jääskeläinen tmi Business Theme
+Version: 0.1
+Text Domain: ljtmibase
+
+Main style sheet for the theme.
+
+
+*/
+
+
+.admin-bar .sticky-header {
+    top: 32px;
+}
+
+.banner-img {
+    height: 100%;
+    width: 100%;
+}
