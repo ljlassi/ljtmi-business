@@ -1,1 +1,1 @@
-Ljtmi-base teema, koodipohja jonka pohjalta lähteä rakentamaan teemaa.
+Ljtmi-business teema, yrityssivua ja porfoliota varten.

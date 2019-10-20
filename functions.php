@@ -22,16 +22,16 @@ if ( ! file_exists( get_template_directory() . '/class-wp-bootstrap-navwalker.ph
  * Add support for the title tag, after which it can be used by e.g. plugins also.
  */
 
-function ljtmibase_wp_setup() {
+function ljtmibusiness_wp_setup() {
     add_theme_support( 'title-tag' );
 }
-add_action( 'after_setup_theme', 'ljtmibase_wp_setup' );
+add_action( 'after_setup_theme', 'ljtmibusiness_wp_setup' );
 
 /**
  * Add ability fo the user to change the banner image, load default if none specified.
  */
 
-function ljtmibase_custom_header_setup() {
+function ljtmibusiness_custom_header_setup() {
     $args = array(
         'default-image'      => get_template_directory_uri() . '/img/banner.jpg',
         'default-text-color' => '000',
@@ -51,26 +51,26 @@ function ljtmibase_custom_header_setup() {
 
     add_theme_support( 'custom-header', $args );
 }
-add_action( 'after_setup_theme', 'ljtmibase_custom_header_setup' );
+add_action( 'after_setup_theme', 'ljtmibusiness_custom_header_setup' );
 
 /**
  * Switch the obsolete WP default jquery version to the newest (which is required by boostrap),
  * only applies to theme itself, does not affect the dashboard.
  */
 
-function ljtmibase_switch_jquery() {
+function ljtmibusiness_switch_jquery() {
     wp_deregister_script( 'jquery' );
     $dependencies = array();
     wp_register_script('jquery', get_template_directory_uri().'/node_modules/jquery/dist/jquery.min.js', $dependencies, '3.4.1');
 }
 
-add_action( 'wp_enqueue_scripts', 'ljtmibase_switch_jquery', 3 );
+add_action( 'wp_enqueue_scripts', 'ljtmibusiness_switch_jquery', 3 );
 
 /**
  * Load the js scripts needed in <head>.
  */
 
-function ljtmibase_enqueue_scripts() {
+function ljtmibusiness_enqueue_scripts() {
     $dependencies = array();
     wp_enqueue_script('jquery', get_template_directory_uri().'/node_modules/jquery/dist/jquery.min.js', $dependencies, '3.4.1', true );
     wp_enqueue_script('popper.js', get_template_directory_uri().'/node_modules/popper.js/dist/umd/popper.min.js', $dependencies, '1.15.0', true );
@@ -81,20 +81,20 @@ function ljtmibase_enqueue_scripts() {
     $dependencies = null;
 }
 
-add_action( 'wp_enqueue_scripts', 'ljtmibase_enqueue_scripts', 5 );
+add_action( 'wp_enqueue_scripts', 'ljtmibusiness_enqueue_scripts', 5 );
 
 /**
  * Load CSS files in head.
  */
 
-function ljtmibase_enqueue_styles() {
+function ljtmibusiness_enqueue_styles() {
     $dependencies = array();
     wp_enqueue_style('bootstrap-cs', get_template_directory_uri() . '/node_modules/bootstrap/dist/css/bootstrap.min.css', true );
-    wp_enqueue_style( 'ljtmibase-style', get_stylesheet_uri(), $dependencies, rand(1, 1000));
+    wp_enqueue_style( 'ljtmibusiness-style', get_stylesheet_uri(), $dependencies, rand(1, 1000));
 
 }
 
-add_action( 'wp_enqueue_scripts', 'ljtmibase_enqueue_styles', 10 );
+add_action( 'wp_enqueue_scripts', 'ljtmibusiness_enqueue_styles', 10 );
 
 /**
  * Register primary menu
@@ -103,7 +103,7 @@ add_action( 'wp_enqueue_scripts', 'ljtmibase_enqueue_styles', 10 );
 function register_my_menus() {
     register_nav_menus(
         array(
-            'primary' => __( 'ljtmibase' )
+            'primary' => __( 'ljtmibusiness' )
         )
     );
 }
@@ -116,9 +116,9 @@ add_action( 'init', 'register_my_menus' );
 function right_sidebar() {
     register_sidebar(
         array (
-            'name' => __( 'Right', 'ljtmibase' ),
+            'name' => __( 'Right', 'ljtmibusiness' ),
             'id' => 'right-side-bar',
-            'description' => __( 'Right sidebar', 'ljtmibase' ),
+            'description' => __( 'Right sidebar', 'ljtmibusiness' ),
             'before_widget' => '<div class="widget-content">',
             'after_widget' => "</div>",
             'before_title' => '<h3 class="widget-title">',
@@ -135,9 +135,9 @@ add_action( 'widgets_init', 'right_sidebar' );
 function footer_left_widget_area() {
     register_sidebar(
         array (
-            'name' => __( 'Footer-Left', 'ljtmibase' ),
+            'name' => __( 'Footer-Left', 'ljtmibusiness' ),
             'id' => 'footer-left-widget-area',
-            'description' => __( 'Left footer widget area', 'ljtmibase' ),
+            'description' => __( 'Left footer widget area', 'ljtmibusiness' ),
             'before_widget' => '<div class="widget-content">',
             'after_widget' => "</div>",
             'before_title' => '<h3 class="widget-title">',
@@ -154,9 +154,9 @@ add_action( 'widgets_init', 'footer_left_widget_area' );
 function footer_middle_widget_area() {
     register_sidebar(
         array (
-            'name' => __( 'Footer-Middle', 'ljtmibase' ),
+            'name' => __( 'Footer-Middle', 'ljtmibusiness' ),
             'id' => 'footer-middle-widget-area',
-            'description' => __( 'Middle footer widget area', 'ljtmibase' ),
+            'description' => __( 'Middle footer widget area', 'ljtmibusiness' ),
             'before_widget' => '<div class="widget-content">',
             'after_widget' => "</div>",
             'before_title' => '<h3 class="widget-title">',
@@ -173,9 +173,9 @@ add_action( 'widgets_init', 'footer_middle_widget_area' );
 function footer_right_widget_area() {
     register_sidebar(
         array (
-            'name' => __( 'Footer-Right', 'ljtmibase' ),
+            'name' => __( 'Footer-Right', 'ljtmibusiness' ),
             'id' => 'footer-right-widget-area',
-            'description' => __( 'Right footer widget area', 'ljtmibase' ),
+            'description' => __( 'Right footer widget area', 'ljtmibusiness' ),
             'before_widget' => '<div class="widget-content">',
             'after_widget' => "</div>",
             'before_title' => '<h3 class="widget-title">',
@@ -189,10 +189,10 @@ add_action( 'widgets_init', 'footer_right_widget_area' );
  * Allow the user to decide between blog and static homepage.
  */
 
-function ljtmibase_front_page_template( $template ) {
+function ljtmibusiness_front_page_template( $template ) {
     return is_home() ? '' : $template;
 }
-add_filter( 'frontpage_template', 'ljtmibase_front_page_template' );
+add_filter( 'frontpage_template', 'ljtmibusiness_front_page_template' );
 
 /**
  *  Only show pagination if posts do not fit into one page (if there are less than 10 posts.
