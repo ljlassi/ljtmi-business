@@ -24,5 +24,18 @@ Main style sheet for the theme.
 }
 
 .navi {
-    background-color:black;
+    background-color:rgba(89, 60, 31, 0.8);
+}
+
+.footer {
+    min-height: 150px;
+    background-color:#593C1F;
+}
+
+.spacing-before-main {
+    height:30px;
+}
+
+.spacing-before-main-page {
+    height:100px;
 }

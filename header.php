@@ -40,20 +40,6 @@
 
 </nav>
 <div class="container-fluid">
-    <div class="row">
-
-        <div class="col-12 p-0">
-            <?php
-
-            /**
-             * Gets the header image specified in theme options if exists, otherwise
-             * show theme default banner image.
-             */
-
-            if ( get_header_image() ) : ?>
-                <img src="<?php header_image(); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" class="banner-img">
-            <?php endif; ?>
-        </div>
-    </div>
-
-    <div class="col-12 spacing-before-main"></div>
+<div class="row">
+    <div class="col-12 spacing-before-main-page"></div>
+</div>

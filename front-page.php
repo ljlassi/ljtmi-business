@@ -6,7 +6,7 @@
 
 ?>
 
-<?php get_header(); ?>
+<?php get_header("frontpage"); ?>
 
     <div class="row">
         <div class="col-md-2 col-sm-0 spacing-sides">
