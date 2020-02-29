@@ -13,11 +13,19 @@
         </div>
         <div class="col-md-8 col-sm-12">
             <div class="row">
-                    <div class="main p-3">
+                <div class="col-md-2 col-sm-0"></div>
+                <div class="col-md-8 col-sm-12">
+                    <div class="text-center p-3">
                         <h2>Kahvila Lorem</h2>
                     </div>
+                    <div class="main p-3">
+                        <p>Testi</p>
+                    </div>
                 </div>
+            <div class="col-md-2 col-sm-0">
             </div>
+            </div>
+        </div>
         <div class="col-md-2 col-sm-0 spacing-sides">
         </div>
 
