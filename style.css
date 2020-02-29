@@ -27,6 +27,22 @@ Main style sheet for the theme.
     background-color:rgba(89, 60, 31, 0.8);
 }
 
+.slider-h5 {
+    color:white;
+    font-size:2.7rem;
+}
+
+.slider-bg {
+    background-color:rgba(0, 0, 0, 0.4);
+}
+.slider-bg-2 {
+    background-color:rgba(0, 0, 0, 0.4);
+}
+
+.slider-p {
+    font-size:1.0rem;
+}
+
 .footer {
     min-height: 150px;
     background-color:#593C1F;

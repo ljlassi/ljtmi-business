@@ -52,12 +52,24 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/interior.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block slider-bg">
+                        <h5 class="slider-h5">Kahvila Lorem</h5>
+                        <p class="slider-p">Laatukahvit, teet ja kakut.</p>
+                    </div>
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/coffee.jpg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block slider-bg">
+                            <h5 class="slider-h5">Kahvilaadut</h5>
+                            <p class="slider-p">Kaikki suosituimmat kahvilaadut, sekä monia muita.</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/love.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block slider-bg">
+                            <h5 class="slider-h5">Yhdessäoloa kahvin äärellä</h5>
+                            <p class="slider-p">Kahvin äärellä syntyvät parhaat keskustelut :)</p>
+                        </div>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

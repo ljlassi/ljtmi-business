@@ -18,7 +18,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         <div class="col-md-2 col-sm-0 spacing-sides">
         </div>
 
