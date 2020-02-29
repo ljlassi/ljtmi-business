@@ -55,3 +55,7 @@ Main style sheet for the theme.
 .spacing-before-main-page {
     height:100px;
 }
+
+.spacing-between-content {
+    height:50px;
+}
