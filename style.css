@@ -27,6 +27,26 @@ Main style sheet for the theme.
     background-color:rgba(89, 60, 31, 0.8);
 }
 
+a.navilink:link, .navilink:visited {
+    color:rgba(255, 255, 255, 0.85) !important;
+    text-decoration: none;
+}
+
+a.navilink:hover, .navilink:active {
+    color:rgba(255, 255, 255, 1.0) !important;
+    text-decoration: none;
+}
+
+a.dropdown-toggle:link, .dropdown-toggle:visited {
+    color:rgba(255, 255, 255, 0.85) !important;
+    text-decoration: none;
+}
+
+a.dropdown-toggle:hover, .dropdown-toggle:active {
+    color:rgba(255, 255, 255, 1.0) !important;
+    text-decoration: none;
+}
+
 .slider-h5 {
     color:white;
     font-size:2.7rem;
