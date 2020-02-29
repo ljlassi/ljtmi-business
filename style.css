@@ -43,6 +43,15 @@ Main style sheet for the theme.
     font-size:1.0rem;
 }
 
+.img-main-pages {
+    max-width:100%;
+    height:auto
+}
+
+.img-border-1px {
+    border:1px solid lightgray;
+}
+
 .footer {
     min-height: 150px;
     background-color:#593C1F;
