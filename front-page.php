@@ -16,10 +16,10 @@
                 <div class="col-md-2 col-sm-0">
                 </div>
                 <div class="col-md-8 col-sm-12">
-                    <div class="text-center p-3">
+                    <div class="text-center p-2">
                         <h2>Kahvila Lorem</h2>
                     </div>
-                    <div class="main p-3">
+                    <div class="main p-2">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt arcu at odio interdum, id sollicitudin est tempor. Maecenas eu metus leo. Pellentesque eget euismod risus. Aliquam nec erat felis. Fusce et maximus lacus. Donec fermentum mauris lectus, quis vehicula justo mattis vel. Praesent mollis velit sit amet ultrices mattis. Vivamus fermentum gravida justo id facilisis. Vivamus et nisi eu arcu luctus dignissim vitae quis leo. Proin lacus lectus, interdum id lobortis et, elementum in est. Phasellus lectus enim, dapibus a metus eu, interdum mollis justo. Nullam sagittis leo augue, sed aliquam libero interdum eu. Sed et scelerisque massa, sit amet suscipit lectus. Nam vehicula tincidunt turpis.</p>
                     </div>
                 </div>
@@ -64,10 +64,10 @@
                 <div class="col-md-2 col-sm-0">
                 </div>
                 <div class="col-md-8 col-sm-12">
-                    <div class="text-center p-3">
+                    <div class="text-center p-2">
                         <h2>Yhteystiedot</h2>
                     </div>
-                    <div class="main p-3 text-center">
+                    <div class="main p-2 text-center">
                         <p>Puhelin: 3854932556</p>
                         <p>Osoite: Jokukatu 23</p>
                         <p>Kaupunki: Jossain</p>
