@@ -1,1 +1,1 @@
-Ljtmi-business teema, yrityssivua ja porfoliota varten.
+Ljtmi-business theme for portfolio (Cafe Lorem site).
