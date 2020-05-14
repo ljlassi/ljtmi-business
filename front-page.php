@@ -9,13 +9,13 @@
 <?php get_header("frontpage"); ?>
 
     <div class="row">
-        <div class="col-md-2 col-sm-0 spacing-sides">
+        <div class="col-lg-2 col-md-0 spacing-sides">
         </div>
-        <div class="col-md-8 col-sm-12">
+        <div class="col-lg-8 col-md-12">
             <div class="row">
-                <div class="col-md-2 col-sm-0">
+                <div class="col-lg-2 col-md-0">
                 </div>
-                <div class="col-md-8 col-sm-12">
+                <div class="col-lg-8 col-md-12">
                     <div class="text-center p-2">
                         <h2>Kahvila Lorem</h2>
                     </div>
@@ -23,7 +23,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt arcu at odio interdum, id sollicitudin est tempor. Maecenas eu metus leo. Pellentesque eget euismod risus. Aliquam nec erat felis. Fusce et maximus lacus. Donec fermentum mauris lectus, quis vehicula justo mattis vel. Praesent mollis velit sit amet ultrices mattis. Vivamus fermentum gravida justo id facilisis. Vivamus et nisi eu arcu luctus dignissim vitae quis leo. Proin lacus lectus, interdum id lobortis et, elementum in est. Phasellus lectus enim, dapibus a metus eu, interdum mollis justo. Nullam sagittis leo augue, sed aliquam libero interdum eu. Sed et scelerisque massa, sit amet suscipit lectus. Nam vehicula tincidunt turpis.</p>
                     </div>
                 </div>
-            <div class="col-md-2 col-sm-0">
+            <div class="col-lg-2 col-md-0">
             </div>
             </div>
 
@@ -33,22 +33,22 @@
         </div>
 
         <div class="row">
-            <div class="col-md-5 col-sm-12">
+            <div class="col-lg-5 col-md-12 col-sm-12">
                 <div class="text-center">
                     <h3>Menu</h3>
                 </div>
-                <div class="p-3">
+                <div class="p-1">
                     <img src="<?php echo get_template_directory_uri();?>/img/menu.jpg" alt="Kuva menusta" class="img-main-pages img-border-1px">
                     <p>Nunc sit amet mollis justo. Fusce tempor varius nisi. Aenean vel accumsan purus, non vehicula dolor. Ut cursus neque vitae pulvinar faucibus. Vestibulum hendrerit varius ipsum, ut luctus elit luctus quis. Fusce mollis elementum felis et dapibus. Donec laoreet condimentum diam mattis tempor. Nulla sed ipsum gravida, accumsan tortor quis, finibus tellus. Aenean blandit nisi a hendrerit laoreet. Sed mollis ornare sagittis. Duis ac justo dictum, aliquam ipsum ac, pulvinar lectus. Maecenas vel lacus nisl. Fusce gravida vel odio ac finibus. Nam malesuada suscipit quam, ac pellentesque velit interdum eget.</p>
                 </div>
             </div>
-            <div class="col-md-2 col-sm-0">
+            <div class="col-lg-2 col-md-0">
             </div>
-            <div class="col-md-5 col-sm-12">
+            <div class="col-lg-5 col-md-12 col-sm-12">
                 <div class="text-center">
                     <h3>Kahvila</h3>
                 </div>
-                <div class="p-3">
+                <div class="p-1">
                     <img src="<?php echo get_template_directory_uri();?>/img/exterior.jpg" alt="Kahvila ulkoa" class="img-main-pages img-border-1px">
                     <p>In at risus in augue tristique viverra sit amet vel arcu. Quisque eget enim vitae tellus aliquam malesuada. Sed varius ligula eget augue dignissim mollis. Vestibulum ac molestie lorem, at volutpat odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ultrices pulvinar lectus in ultricies. Aliquam sem lacus, tincidunt id convallis quis, auctor vitae libero. Duis sit amet leo luctus, posuere dolor in, consequat diam. Morbi at varius justo. Nam sit amet fringilla libero.</p>
                 </div>
@@ -81,7 +81,7 @@
 
 
         </div>
-        <div class="col-md-2 col-sm-0 spacing-sides">
+        <div class="col-lg-2 col-md-0 spacing-sides">
         </div>
 
     </div>
