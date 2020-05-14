@@ -9,11 +9,11 @@
 <?php get_header(); ?>
 
     <div class="row">
-        <div class="col-md-2 col-sm-0">
+        <div class="col-xl-2 col-lg-0">
         </div>
-        <div class="col-md-8 col-sm-12">
+        <div class="col-xl-8 col-lg-12">
             <div class="row">
-                <div class="col-md-7 col-sm-12">
+                <div class="col-lg-7 col-md-12">
                     <div class="main p-3">
                         <?php
 
@@ -30,8 +30,8 @@
                         ?>
                     </div>
                 </div>
-                <div class="col-md-1 col-sm-0 "></div>
-                <div class="col-md-4 col-sm-12">
+                <div class="col-lg-1 col-md-0 "></div>
+                <div class="col-lg-4 col-md-12">
                     <div class="sidebar-right p-3">
                         <?php if ( is_active_sidebar( 'right-side-bar' ) ) : ?>
                             <?php dynamic_sidebar( 'right-side-bar' ); ?>
@@ -40,7 +40,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-2 col-sm-0">
+        <div class="col-xl-2 col-lg-0">
         </div>
 
     </div>
