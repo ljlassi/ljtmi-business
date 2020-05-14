@@ -1,24 +1,24 @@
 {
-  "name": "kaupunginorkesteri",
-  "version": "0.1.0",
-  "description": "Test theme for wordpress",
+  "name": "ljtmi-business",
+  "version": "1.0.0",
+  "description": "Wordpress theme for portfolio",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ljlassi/kaupunginorkesteri-wp.git"
+    "url": "https://github.com/ljlassi/ljtmi-business"
   },
   "author": "Lassi Jääskeläinen",
-  "license": "ISC",
+  "license": "GPL-2.0-or-later",
   "bugs": {
-    "url": "https://github.com/ljlassi/kaupunginorkesteri-wp/issues"
+    "url": "https://github.com/ljlassi/ljtmi-business"
   },
-  "homepage": "https://github.com/ljlassi/kaupunginorkesteri-wp#readme",
+  "homepage": "https://github.com/ljlassi/ljtmi-business",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.15.0"
+    "bootstrap": "4.5.0",
+    "jquery": "3.5.1",
+    "@popperjs/core": "2.4.0"
   }
 }

@@ -61,7 +61,7 @@ add_action( 'after_setup_theme', 'ljtmibusiness_custom_header_setup' );
 function ljtmibusiness_switch_jquery() {
     wp_deregister_script( 'jquery' );
     $dependencies = array();
-    wp_register_script('jquery', get_template_directory_uri().'/node_modules/jquery/dist/jquery.min.js', $dependencies, '3.4.1');
+    wp_register_script('jquery', get_template_directory_uri().'/node_modules/jquery/dist/jquery.min.js', $dependencies, '3.5.1');
 }
 
 add_action( 'wp_enqueue_scripts', 'ljtmibusiness_switch_jquery', 3 );
@@ -72,10 +72,10 @@ add_action( 'wp_enqueue_scripts', 'ljtmibusiness_switch_jquery', 3 );
 
 function ljtmibusiness_enqueue_scripts() {
     $dependencies = array();
-    wp_enqueue_script('jquery', get_template_directory_uri().'/node_modules/jquery/dist/jquery.min.js', $dependencies, '3.4.1', true );
-    wp_enqueue_script('popper.js', get_template_directory_uri().'/node_modules/popper.js/dist/umd/popper.min.js', $dependencies, '1.15.0', true );
+    wp_enqueue_script('jquery', get_template_directory_uri().'/node_modules/jquery/dist/jquery.min.js', $dependencies, '3.5.1', true );
+    wp_enqueue_script('popper.js', get_template_directory_uri().'/node_modules/@popperjs/core/dist/umd/popper.min.js', $dependencies, '2.4.0', true );
     $dependencies = array('jquery', 'popper.js');
-    wp_enqueue_script('bootstrap', get_template_directory_uri().'/node_modules/bootstrap/dist/js/bootstrap.min.js', $dependencies, '4.3.1', true );
+    wp_enqueue_script('bootstrap', get_template_directory_uri().'/node_modules/bootstrap/dist/js/bootstrap.min.js', $dependencies, '4.5.0', true );
     /*$dependencies = array('jquery', 'popper.js', 'bootstrap');
     wp_enqueue_script('bootstrap-bundle', get_template_directory_uri().'/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js', $dependencies, '4.3.1', false );*/
     $dependencies = null;
@@ -85,6 +85,9 @@ add_action( 'wp_enqueue_scripts', 'ljtmibusiness_enqueue_scripts', 5 );
 
 /**
  * Load CSS files in head.
+ *
+ * REMOVE rand(1, 1000) in production if you do not want the stylesheet reloading every time.
+ *
  */
 
 function ljtmibusiness_enqueue_styles() {
