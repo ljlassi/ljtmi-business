@@ -88,3 +88,9 @@ a.dropdown-toggle:hover, .dropdown-toggle:active {
 .spacing-between-content {
     height:50px;
 }
+
+@media (max-width:992px) {
+    .footer {
+    min-height: 75px;
+    }
+}
